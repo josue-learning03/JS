@@ -11,6 +11,80 @@
 <h1>Formularios</h1>
 
     </header>
+    <main>
+
+        <section>
+            <form name="Formularios" action="GET" action="procesar.php">
+                
+           <p>
+           <label>Nombre: <input type="text" name="nombre" ></label></label>
+           </p>
+
+            <p>
+                <label>edad: <input type="text" name="edad" value="35"></label>
+            </p>
+
+            <p><input value="Enviar Datos" type="submit"></p>
+            </form>
+        </section><br>
+        <!--Conectando el label y la etiqueta a travez del for -->
+
+        <section>
+
+
+            <form name="Formularios" action="get">
+               
+                <p>
+                    <label for ="nombre">Nombre:</label>
+                    <input minlength="1" maxlength="15" name="nombre" type="text" id="nombre">
+                </p>
+
+                
+                <p>
+                    <label for="edad">Apellido:</label>
+                    <input type="text" name="edad" id="edad">
+                </p>
+
+                <p><input type="submit" value="Enviar Datos"></p><br>
+
+            </form>
+
+            <form name="Formularios" action="get">
+
+                <section class="section3">
+
+                    <p><label>Edad: <input min="13" max="20" name="Edad" type="number" id="nombre"></label></p>
+                <p><label>Correo: <input maxlength="30" name="correo" type="email" id="correo"></label></p>
+                <p><label>Phone Number: <input name="numero" type="number" id="num"></label></p>
+                <p><label>Sitio Web:<input type="url" name="sitioweb" id="sitioweb"></label></p>
+                <p><label>aceleracion: <input min="10" max="100" type="range" name="aceleracion" value="1"></in></label></p>
+                <p><label><input value="submit" name="button" type="submit"></label></p>
+
+                </section>
+
+            </form><br>
+
+            <section>
+                <form>
+            <p><label><input type="text" name="nombre" maxlength="15"></label></p>
+            <p><label><input type="radio" name="Edad" value="edad 15" checked> 15 Años</label></p>
+            <p><label><input type="radio" name="Edad" value="edad 30"> 30 Años</label></p>
+            <p><label><input type="radio" name="Edad" value="edad 45"> 45 Años</label></p>
+            <p><label><input type="radio" name="Edad" value="edad 60"> 60 Años</label></p>
+            <p><input type="submit" name="button"></p>
+
+
+                </form>
+            </section>
+            
+
+
+        </section>
+
+
+
+
+    </main>
 
 </body>
 </html>
