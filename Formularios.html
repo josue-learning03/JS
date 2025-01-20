@@ -53,7 +53,7 @@
 
                 <section class="section3">
 
-                    <p><label>Edad: <input min="13" max="20" name="Edad" type="number" id="nombre"></label></p>
+                <p><label>Edad: <input min="13" max="20" name="Edad" type="number" id="nombre"></label></p>
                 <p><label>Correo: <input maxlength="30" name="correo" type="email" id="correo"></label></p>
                 <p><label>Phone Number: <input name="numero" type="number" id="num"></label></p>
                 <p><label>Sitio Web:<input type="url" name="sitioweb" id="sitioweb"></label></p>
@@ -72,11 +72,64 @@
             <p><label><input type="radio" name="Edad" value="edad 45"> 45 Años</label></p>
             <p><label><input type="radio" name="Edad" value="edad 60"> 60 Años</label></p>
             <p><input type="submit" name="button"></p>
-
-
                 </form>
             </section>
-            
+
+            <section>
+                <form>
+                    <p><label><input type="text" name="nombre" maxlength="15"></label></p>
+                    <p><label><input type="checkbox" name="Edad" value="edad 15" checked> 15 Años</label></p>
+                    <p><label><input type="checkbox" name="Edad" value="edad 30"> 30 Años</label></p>
+                    <p><label><input type="checkbox" name="Edad" value="edad 45"> 45 Años</label></p>
+                    <p><label><input type="checkbox" name="Edad" value="edad 60"> 60 Años</label></p>
+                    <p><input type="submit" name="button"></p>
+                </form>
+            </section>
+
+            <!--aqui tenemos la fecha -->
+
+            <section>
+                <form>
+                    <input type="date" name="hora" id="hora" value="">
+                </form>
+            </section>
+
+            <!--aqui tenemos el color -->
+            <section>
+                <form>
+                <input type="color" name="color" id="color" value="#ff0000">
+            </form>
+            </section><br>
+
+
+        <!--aqui tenemos icono boton  -->
+
+            <section>
+                <form>
+                <input  type="image" width="100px" name="imagen de envio" src="C:\Users\meryd\OneDrive\Escritorio\fotos\images.jpeg">
+            </form>
+            </section><br>
+
+            <!--aqui tenemos insercion de datos con el button -->
+
+            <section>
+                <form>
+                <p><label>Nombre: <input type="text" name="nombre" id="nombre"></label></p>
+                <p><label>Nombre: <input type="text" name="edad" id="edad"></label></p>
+                <p><button type="submit" >Enviar Formularios</button></p>
+
+            </form>
+            </section>
+            <br>
+
+            <!--el elemento TextTarea-->
+
+            <form>
+              <label>Text:
+                <textarea name="comentario" id="comentario" cols="15" rows="10">Escribe aqui...
+
+                </textarea></label>
+            </form>
 
 
         </section>
