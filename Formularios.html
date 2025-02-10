@@ -8,16 +8,16 @@
 <body>
     
     <header>
-<h1>Formularios</h1>
-
+<h1>Formularios</h1> 
     </header>
+
     <main>
 
         <section>
             <form name="Formularios" action="GET" action="procesar.php">
                 
            <p>
-           <label>Nombre: <input type="text" name="nombre" ></label></label>
+           <label>Nombre: <input type="text" name="nombre" ></label>
            </p>
 
             <p>
@@ -124,17 +124,70 @@
 
             <!--el elemento TextTarea-->
 
+            <section>
+                <form>
+                    <label>Text:
+                      <textarea name="comentario" id="comentario" cols="15" rows="10">Escribe aqui...
+      
+                      </textarea></label>
+                  </form><br>
+            </section>
+
+
+            <!--el elemento select-->
+
+            <section>
+
+                <form>
+                    <p>
+                    <label for="listados">Libros: </label>
+                        <select name="opcion" id="listados">
+                            <option value="1">IT</option>
+                            <option value="2">Carrie</option>
+                            <option value="3">El Resplandor</option>
+                            <option value="4">Misery</option>
+                        </select>
+                        </p>
+                        <p><input type="submit" value="Enviar Datos"></p>
+                </form>
+            </section><br><br>
+
+
+
+<!--el elemento DataList-->
+
+<section class="datalist">
+    <form >
+
+        <datalist id="Datos">
+<option value="8296272783" label="Tel 1">
+<option value="8296272784" label="Tel 2">
+        </datalist>
+
+        <p> <label>Telefonos: <input type="tel" name="Telefonos" list="Datos"></label></p>
+        <p><input type="submit" value="Enviar Datos"></p>
+    </form>
+</section>
+
+<!--aqui estamos trabajando con el PROGRESS -->
+        </section>
+
+        <section class="METER">
             <form>
-              <label>Text:
-                <textarea name="comentario" id="comentario" cols="15" rows="10">Escribe aqui...
+<progress value="180" max="200">0%</progress>
 
-                </textarea></label>
             </form>
-
 
         </section>
 
-
+        <!--Aqui vamos a trabajar con el METER-->
+<section>
+    <form>
+        <meter value="100" min="0" max="200" low="40" high="80" optimum="100"></meter>
+    </form>
+    
+</section>
+        
 
 
     </main>
